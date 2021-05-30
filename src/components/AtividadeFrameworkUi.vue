@@ -154,7 +154,7 @@ export default {
         this.funcionarios = this.funcionarios.filter(element => {
             return element['cpf'] !== cpf
         })
-        alerta("Funcionário removido com sucesso");
+        this.alerta("Funcionário removido com sucesso");
 
     },
     filter_sal: function () {
